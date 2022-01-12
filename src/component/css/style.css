@@ -1,0 +1,251 @@
+.active_class :visited {
+  color: red;
+  font-size: 20px;
+}
+.navbar {
+  background-color: transparent;
+  height: 60px;
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  color: white;
+  margin-right: 120px;
+}
+.navbar_2 {
+  background-color: transparent;
+  display: flex;
+  gap: 30px;
+  margin-top: 15px;
+}
+.product_main {
+  display: flex;
+  justify-content: center;
+}
+.product_main1 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 996px;
+  height: 291px;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+.profile {
+  display: inline-flex;
+  justify-content: center;
+  height: 128px;
+  width: 128px;
+  margin: auto;
+}
+Img {
+  display: block;
+  border-radius: 120px;
+  width:128px;
+  height:128px;
+}
+.user_data {
+  width: 600px;
+  height: 163px;
+  margin: auto;
+}
+.usr_name {
+  height: 64px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  color: #e16259;
+  white-space: nowrap;
+}
+.usr_add {
+  height: 87px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.usr_gender {
+  color: grey;
+  margin-top: 5px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px 100px 100px;
+  row-gap: 12px;
+  column-gap: 12px;
+  align-items: center;
+  margin-top: 50px;
+  width: 80%;
+  margin-left: 150px;
+  white-space: nowrap;
+}
+.items {
+  background-color: white;
+  border-radius: 4px;
+}
+.items:hover {
+  color: red;
+  cursor: pointer;
+}
+.gender {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 150%;
+  margin: 0px 4px;
+}
+.gender_selected {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 150%;
+  margin: 0px 4px;
+}
+.username {
+  font-weight: bold;
+  color: #000000;
+  margin: 0px 4px;
+  font-size: 22px;
+}
+.username_selected {
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0px 4px;
+  font-size: 22px;
+}
+.email{
+  color: #e16259;
+  font-size: 15px;
+  line-height: 150%;
+  margin: 0px 4px;
+}
+.email_selected {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 150%;
+  margin: 0px 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .navbar_2 {
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+  .product_main {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+  }
+  .product_main1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 400px;
+    height: 110px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 160px;
+  }
+  Img {
+    border-radius: 120px;
+    height: 68px;
+    width: 68px;
+    margin-left: 10px;
+    margin-top:15px;
+  }
+  /* .user_data {
+    width: 300px;
+    height: 163px;
+    margin: auto;
+  } */
+  .usr_name {
+    height: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #e16259;
+    white-space: nowrap;
+    margin-top: 15px;
+    margin-right: 20px;
+  }
+  .usr_add {
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  .usr_gender {
+    color: grey;
+    margin-top: 5px;
+  }
+  .container {
+    display: grid;
+    margin:0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80px 80px 80px;
+    row-gap: 12px;
+    column-gap: 12px;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    white-space: nowrap;
+  }
+  .items {
+    background-color: white;
+    border-radius: 4px;
+  }
+  .items:hover {
+    cursor: pointer;
+  }
+  .gender {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 150%;
+    margin: 0px 4px;
+  }
+  .gender_selected {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 150%;
+    margin: 0px 4px;
+  }
+  .username {
+    font-weight: bold;
+    color: #000000;
+    margin: 0px 4px;
+    font-size: 18px;
+  }
+  .username_selected {
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0px 4px;
+    font-size: 18px;
+  }
+  .email{
+    color: #e16259;
+    font-size: 13px;
+    line-height: 150%;
+    margin: 0px 4px;
+  }
+  .email_selected {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 150%;
+    margin: 0px 4px;
+  }
+}
